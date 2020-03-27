@@ -3,9 +3,9 @@ import six
 import urllib
 import json
 import itertools
-from bandwidth.voice.lazy_enumerable import get_lazy_enumerator
-from bandwidth.convert_camel import convert_object_to_snake_case
-from bandwidth.version import __version__ as version
+from bandwidth_old.voice.lazy_enumerable import get_lazy_enumerator
+from bandwidth_old.convert_camel import convert_object_to_snake_case
+from bandwidth_old.version import __version__ as version
 
 quote = urllib.parse.quote if six.PY3 else urllib.quote
 lazy_map = map if six.PY3 else itertools.imap

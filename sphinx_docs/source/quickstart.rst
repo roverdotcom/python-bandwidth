@@ -23,14 +23,14 @@ Client Initialization
 Before using the sdk you must initialize a Client with your Bandwidth App
 Platform API credentials::
 
-    import bandwidth
-    voice_api = bandwidth.client('voice', 'u-user', 't-token', 's-secret')
-    messaging_api = bandwidth.client('messaging', 'u-user', 't-token', 's-secret')
-    account_api = bandwidth.client('account', 'u-user', 't-token', 's-secret')
+    import bandwidth_old
+    voice_api = bandwidth_old.client('voice', 'u-user', 't-token', 's-secret')
+    messaging_api = bandwidth_old.client('messaging', 'u-user', 't-token', 's-secret')
+    account_api = bandwidth_old.client('account', 'u-user', 't-token', 's-secret')
 
 Or import each individually for better IDE integration::
 
-    from bandwidth import messaging, voice, account
+    from bandwidth_old import messaging, voice, account
     messaging_api = messaging.Client('u-user', 't-token', 's-secret')
     voice_api = voice.Client('u-user', 't-token', 's-secret')
     account_api = account.Client('u-user', 't-token', 's-secret')
@@ -46,8 +46,8 @@ Phone Numbers
 
 Get available number via location search::
 
-    import bandwidth
-    account_api = bandwidth.client('account', 'u-user', 't-token', 's-secret')
+    import bandwidth_old
+    account_api = bandwidth_old.client('account', 'u-user', 't-token', 's-secret')
     numbers = account_api.search_available_local_numbers(area_code = '910', quantity = 3)
     print(numbers)
     ## [   {   'city'          : 'WILMINGTON',
@@ -80,8 +80,8 @@ Calling
 
 Create a call::
 
-    import bandwidth
-    voice_api = bandwidth.client('voice', 'u-user', 't-token', 's-secret')
+    import bandwidth_old
+    voice_api = bandwidth_old.client('voice', 'u-user', 't-token', 's-secret')
     call_id = voice_api.create_call(from_ = '+1234567890', to = '+1234567891', callback_url = "http://yoursite.com/calls")
     print(call_id)
     ## c-abc123
@@ -104,8 +104,8 @@ Create a call::
 
 Retrieving list of calls::
 
-    import bandwidth
-    voice_api = bandwidth.client('voice', 'u-user', 't-token', 's-secret')
+    import bandwidth_old
+    voice_api = bandwidth_old.client('voice', 'u-user', 't-token', 's-secret')
     call_list = voice_api.list_calls(to = '+19192223333', size = 2)
     print(list(call_list))
     ## [

@@ -18,11 +18,11 @@ Before using the sdk you must initialize a Client with your Bandwidth App
 Platform API credentials::
 
     # Single import
-    import bandwidth
-    account_api = bandwidth.client('account', 'u-user', 't-token', 's-secret')
+    import bandwidth_old
+    account_api = bandwidth_old.client('account', 'u-user', 't-token', 's-secret')
 
     # OR for IDE goodness with auto completes
-    from bandwidth import account
+    from bandwidth_old import account
     account_api = account.Client('u-user', 't-token', 's-secret')
 
 Code Samples
@@ -35,7 +35,7 @@ Phone Numbers
 
 Get available number via location search::
 
-    from bandwidth import account
+    from bandwidth_old import account
     account_api = account.Client('u-user', 't-token', 's-secret')
 
     numbers = account_api.search_available_local_numbers(area_code = '910', quantity = 3)

@@ -13,50 +13,59 @@
 
   
   
+  
+  
 
   
+  <script type="text/javascript" src="_static/js/modernizr.min.js"></script>
+  
+    
+      <script type="text/javascript" id="documentation_options" data-url_root="./" src="_static/documentation_options.js"></script>
+        <script src="_static/jquery.js"></script>
+        <script src="_static/underscore.js"></script>
+        <script src="_static/doctools.js"></script>
+        <script src="_static/language_data.js"></script>
+    
+    <script type="text/javascript" src="_static/js/theme.js"></script>
 
-  
-  
     
 
   
-
-  
-  
-    <link rel="stylesheet" href="_static/css/theme.css" type="text/css" />
-  
-
-  
-
-  
-    <link rel="top" title="bandwidth_sdk 1.0.6-stable documentation" href="index.html"/>
-        <link rel="up" title="Account Api" href="account_api.html"/>
-        <link rel="next" title="Numbers" href="numbers.html"/>
-        <link rel="prev" title="Errors" href="errors.html"/> 
-
-  
-  <script src="_static/js/modernizr.min.js"></script>
-
+  <link rel="stylesheet" href="_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="Numbers" href="numbers.html" />
+    <link rel="prev" title="Errors" href="errors.html" /> 
 </head>
 
-<body class="wy-body-for-nav" role="document">
+<body class="wy-body-for-nav">
 
+   
   <div class="wy-grid-for-nav">
-
     
     <nav data-toggle="wy-nav-shift" class="wy-nav-side">
-      <div class="wy-side-nav-search">
-        
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+          
 
-        
-          <a href="index.html" class="icon icon-home"> bandwidth_sdk
-        
+          
+            <a href="index.html" class="icon icon-home"> bandwidth_sdk
+          
 
-        
-        </a>
+          
+          </a>
 
-        
+          
+            
+            
+              <div class="version">
+                1.0.6-stable
+              </div>
+            
+          
+
+          
 <div role="search">
   <form id="rtd-search-form" class="wy-form" action="search.html" method="get">
     <input type="text" name="q" placeholder="Search docs" />
@@ -65,246 +74,132 @@
   </form>
 </div>
 
-        
-      </div>
+          
+        </div>
 
-      <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
-        
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
           
-          
+            
+            
+              
+            
+            
               <ul class="current">
-<li class="toctree-l1"><a class="reference internal" href="quickstart.html">Quickstart Guide</a><ul>
-<li class="toctree-l2"><a class="reference internal" href="quickstart.html#installation">Installation</a></li>
-<li class="toctree-l2"><a class="reference internal" href="quickstart.html#client-initialization">Client Initialization</a></li>
-<li class="toctree-l2"><a class="reference internal" href="quickstart.html#code-samples">Code Samples</a><ul>
-<li class="toctree-l3"><a class="reference internal" href="quickstart.html#phone-numbers">Phone Numbers</a></li>
-<li class="toctree-l3"><a class="reference internal" href="quickstart.html#calling">Calling</a></li>
-<li class="toctree-l3"><a class="reference internal" href="quickstart.html#messaging">Messaging</a></li>
-</ul>
-</li>
-</ul>
-</li>
-<li class="toctree-l1"><a class="reference internal" href="messaging_api.html">Messaging API</a><ul>
-<li class="toctree-l2"><a class="reference internal" href="messaging_api.html#client-initialization">Client Initialization</a></li>
-<li class="toctree-l2"><a class="reference internal" href="messaging_api.html#messaging-methods">Messaging Methods</a><ul>
-<li class="toctree-l3"><a class="reference internal" href="messages.html">Messages</a><ul>
-<li class="toctree-l4"><a class="reference internal" href="messages.html#list-messages">list_messages</a></li>
-<li class="toctree-l4"><a class="reference internal" href="messages.html#send-message">send_message</a></li>
-<li class="toctree-l4"><a class="reference internal" href="messages.html#send-messages">send_messages</a></li>
-<li class="toctree-l4"><a class="reference internal" href="messages.html#get-message">get_message</a></li>
-</ul>
-</li>
-</ul>
-</li>
-</ul>
-</li>
-<li class="toctree-l1"><a class="reference internal" href="voice_api.html">Voice API</a><ul>
-<li class="toctree-l2"><a class="reference internal" href="voice_api.html#client-initialization">Client Initialization</a></li>
-<li class="toctree-l2"><a class="reference internal" href="voice_api.html#voice-methods">Voice Methods</a><ul>
-<li class="toctree-l3"><a class="reference internal" href="calls.html">Calls</a><ul>
-<li class="toctree-l4"><a class="reference internal" href="calls.html#list-calls">list_calls</a></li>
-<li class="toctree-l4"><a class="reference internal" href="calls.html#create-call">create_call</a></li>
-<li class="toctree-l4"><a class="reference internal" href="calls.html#get-call">get_call</a></li>
-<li class="toctree-l4"><a class="reference internal" href="calls.html#update-call">update_call</a></li>
-<li class="toctree-l4"><a class="reference internal" href="calls.html#play-audio-to-call">play_audio_to_call</a></li>
-<li class="toctree-l4"><a class="reference internal" href="calls.html#send-dtmf-to-call">send_dtmf_to_call</a></li>
-<li class="toctree-l4"><a class="reference internal" href="calls.html#list-call-recordings">list_call_recordings</a></li>
-<li class="toctree-l4"><a class="reference internal" href="calls.html#list-call-transcriptions">list_call_transcriptions</a></li>
-<li class="toctree-l4"><a class="reference internal" href="calls.html#list-call-events">list_call_events</a></li>
-<li class="toctree-l4"><a class="reference internal" href="calls.html#get-call-event">get_call_event</a></li>
-<li class="toctree-l4"><a class="reference internal" href="calls.html#create-call-gather">create_call_gather</a></li>
-<li class="toctree-l4"><a class="reference internal" href="calls.html#get-call-gather">get_call_gather</a></li>
-<li class="toctree-l4"><a class="reference internal" href="calls.html#update-call-gather">update_call_gather</a></li>
-<li class="toctree-l4"><a class="reference internal" href="calls.html#answer-call">answer_call</a></li>
-<li class="toctree-l4"><a class="reference internal" href="calls.html#reject-call">reject_call</a></li>
-<li class="toctree-l4"><a class="reference internal" href="calls.html#hangup-call">hangup_call</a></li>
-<li class="toctree-l4"><a class="reference internal" href="calls.html#enable-call-recording">enable_call_recording</a></li>
-<li class="toctree-l4"><a class="reference internal" href="calls.html#disable-call-recording">disable_call_recording</a></li>
-<li class="toctree-l4"><a class="reference internal" href="calls.html#toggle-call-recording">toggle_call_recording</a></li>
-<li class="toctree-l4"><a class="reference internal" href="calls.html#transfer-call">transfer_call</a></li>
-</ul>
-</li>
-<li class="toctree-l3"><a class="reference internal" href="conferences.html">Conferences</a><ul>
-<li class="toctree-l4"><a class="reference internal" href="conferences.html#create-conference">create_conference</a></li>
-<li class="toctree-l4"><a class="reference internal" href="conferences.html#get-conference">get_conference</a></li>
-<li class="toctree-l4"><a class="reference internal" href="conferences.html#update-conference">update_conference</a></li>
-<li class="toctree-l4"><a class="reference internal" href="conferences.html#play-audio-to-conference">play_audio_to_conference</a></li>
-<li class="toctree-l4"><a class="reference internal" href="conferences.html#list-conference-members">list_conference_members</a></li>
-<li class="toctree-l4"><a class="reference internal" href="conferences.html#create-conference-member">create_conference_member</a></li>
-<li class="toctree-l4"><a class="reference internal" href="conferences.html#get-conference-member">get_conference_member</a></li>
-<li class="toctree-l4"><a class="reference internal" href="conferences.html#update-conference-member">update_conference_member</a></li>
-<li class="toctree-l4"><a class="reference internal" href="conferences.html#play-audio-to-conference-member">play_audio_to_conference_member</a></li>
-<li class="toctree-l4"><a class="reference internal" href="conferences.html#speak-sentence-to-conference-member">speak_sentence_to_conference_member</a></li>
-<li class="toctree-l4"><a class="reference internal" href="conferences.html#play-audio-file-to-conference-member">play_audio_file_to_conference_member</a></li>
-<li class="toctree-l4"><a class="reference internal" href="conferences.html#remove-conference-member">remove_conference_member</a></li>
-<li class="toctree-l4"><a class="reference internal" href="conferences.html#hold-conference-member">hold_conference_member</a></li>
-<li class="toctree-l4"><a class="reference internal" href="conferences.html#mute-conference-member">mute_conference_member</a></li>
-<li class="toctree-l4"><a class="reference internal" href="conferences.html#terminate-conference">terminate_conference</a></li>
-<li class="toctree-l4"><a class="reference internal" href="conferences.html#hold-conference">hold_conference</a></li>
-<li class="toctree-l4"><a class="reference internal" href="conferences.html#mute-conference">mute_conference</a></li>
-</ul>
-</li>
-<li class="toctree-l3"><a class="reference internal" href="bridges.html">Bridges</a><ul>
-<li class="toctree-l4"><a class="reference internal" href="bridges.html#list-bridges">list_bridges</a></li>
-<li class="toctree-l4"><a class="reference internal" href="bridges.html#create-bridge">create_bridge</a></li>
-<li class="toctree-l4"><a class="reference internal" href="bridges.html#get-bridge">get_bridge</a></li>
-<li class="toctree-l4"><a class="reference internal" href="bridges.html#update-bridge">update_bridge</a></li>
-<li class="toctree-l4"><a class="reference internal" href="bridges.html#list-bridge-calls">list_bridge_calls</a></li>
-<li class="toctree-l4"><a class="reference internal" href="bridges.html#play-audio-to-bridge">play_audio_to_bridge</a></li>
-</ul>
-</li>
-<li class="toctree-l3"><a class="reference internal" href="recordings.html">Recordings</a><ul>
-<li class="toctree-l4"><a class="reference internal" href="recordings.html#list-recordings">list_recordings</a></li>
-<li class="toctree-l4"><a class="reference internal" href="recordings.html#get-recording">get_recording</a></li>
-</ul>
-</li>
-<li class="toctree-l3"><a class="reference internal" href="transcriptions.html">Transcriptions</a><ul>
-<li class="toctree-l4"><a class="reference internal" href="transcriptions.html#list-transcriptions">list_transcriptions</a></li>
-<li class="toctree-l4"><a class="reference internal" href="transcriptions.html#create-transcription">create_transcription</a></li>
-<li class="toctree-l4"><a class="reference internal" href="transcriptions.html#get-transcription">get_transcription</a></li>
-</ul>
-</li>
-</ul>
-</li>
-</ul>
-</li>
+<li class="toctree-l1"><a class="reference internal" href="quickstart.html">Quickstart Guide</a></li>
+<li class="toctree-l1"><a class="reference internal" href="messaging_api.html">Messaging API</a></li>
+<li class="toctree-l1"><a class="reference internal" href="voice_api.html">Voice API</a></li>
 <li class="toctree-l1 current"><a class="reference internal" href="account_api.html">Account Api</a><ul class="current">
 <li class="toctree-l2"><a class="reference internal" href="account_api.html#client-initialization">Client Initialization</a></li>
-<li class="toctree-l2"><a class="reference internal" href="account_api.html#code-samples">Code Samples</a><ul>
-<li class="toctree-l3"><a class="reference internal" href="account_api.html#phone-numbers">Phone Numbers</a></li>
-</ul>
-</li>
+<li class="toctree-l2"><a class="reference internal" href="account_api.html#code-samples">Code Samples</a></li>
 <li class="toctree-l2 current"><a class="reference internal" href="account_api.html#account-methods">Account Methods</a><ul class="current">
-<li class="toctree-l3"><a class="reference internal" href="account.html">Account</a><ul>
-<li class="toctree-l4"><a class="reference internal" href="account.html#get-account">get_account</a></li>
-<li class="toctree-l4"><a class="reference internal" href="account.html#get-account-transactions">get_account_transactions</a></li>
-</ul>
-</li>
-<li class="toctree-l3"><a class="reference internal" href="applications.html">Applications</a><ul>
-<li class="toctree-l4"><a class="reference internal" href="applications.html#list-applications">list_applications</a></li>
-<li class="toctree-l4"><a class="reference internal" href="applications.html#create-application">create_application</a></li>
-<li class="toctree-l4"><a class="reference internal" href="applications.html#update-application">update_application</a></li>
-<li class="toctree-l4"><a class="reference internal" href="applications.html#get-application">get_application</a></li>
-<li class="toctree-l4"><a class="reference internal" href="applications.html#delete-application">delete_application</a></li>
-</ul>
-</li>
-<li class="toctree-l3"><a class="reference internal" href="available_numbers.html">Available Numbers</a><ul>
-<li class="toctree-l4"><a class="reference internal" href="available_numbers.html#search-available-local-numbers">search_available_local_numbers</a></li>
-<li class="toctree-l4"><a class="reference internal" href="available_numbers.html#search-available-toll-free-numbers">search_available_toll_free_numbers</a></li>
-<li class="toctree-l4"><a class="reference internal" href="available_numbers.html#search-and-order-local-numbers">search_and_order_local_numbers</a></li>
-<li class="toctree-l4"><a class="reference internal" href="available_numbers.html#search-and-order-toll-free-numbers">search_and_order_toll_free_numbers</a></li>
-</ul>
-</li>
-<li class="toctree-l3"><a class="reference internal" href="domains.html">Domains</a><ul>
-<li class="toctree-l4"><a class="reference internal" href="domains.html#list-domains">list_domains</a></li>
-<li class="toctree-l4"><a class="reference internal" href="domains.html#create-domain">create_domain</a></li>
-<li class="toctree-l4"><a class="reference internal" href="domains.html#get-domain">get_domain</a></li>
-<li class="toctree-l4"><a class="reference internal" href="domains.html#delete-domain">delete_domain</a></li>
-</ul>
-</li>
-<li class="toctree-l3"><a class="reference internal" href="endpoints.html">Endpoints</a><ul>
-<li class="toctree-l4"><a class="reference internal" href="endpoints.html#list-domain-endpoints">list_domain_endpoints</a></li>
-<li class="toctree-l4"><a class="reference internal" href="endpoints.html#create-domain-endpoint">create_domain_endpoint</a></li>
-<li class="toctree-l4"><a class="reference internal" href="endpoints.html#get-domain-endpoint">get_domain_endpoint</a></li>
-<li class="toctree-l4"><a class="reference internal" href="endpoints.html#update-domain-endpoint">update_domain_endpoint</a></li>
-<li class="toctree-l4"><a class="reference internal" href="endpoints.html#delete-domain-endpoint">delete_domain_endpoint</a></li>
-<li class="toctree-l4"><a class="reference internal" href="endpoints.html#create-domain-endpoint-auth-token">create_domain_endpoint_auth_token</a></li>
-</ul>
-</li>
-<li class="toctree-l3"><a class="reference internal" href="errors.html">Errors</a><ul>
-<li class="toctree-l4"><a class="reference internal" href="errors.html#list-errors">list_errors</a></li>
-<li class="toctree-l4"><a class="reference internal" href="errors.html#get-error">get_error</a></li>
-</ul>
-</li>
-<li class="toctree-l3 current"><a class="current reference internal" href="">Media</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="account.html">Account</a></li>
+<li class="toctree-l3"><a class="reference internal" href="applications.html">Applications</a></li>
+<li class="toctree-l3"><a class="reference internal" href="available_numbers.html">Available Numbers</a></li>
+<li class="toctree-l3"><a class="reference internal" href="domains.html">Domains</a></li>
+<li class="toctree-l3"><a class="reference internal" href="endpoints.html">Endpoints</a></li>
+<li class="toctree-l3"><a class="reference internal" href="errors.html">Errors</a></li>
+<li class="toctree-l3 current"><a class="current reference internal" href="#">Media</a><ul>
 <li class="toctree-l4"><a class="reference internal" href="#list-media-files">list_media_files</a></li>
 <li class="toctree-l4"><a class="reference internal" href="#upload-media-file">upload_media_file</a></li>
 <li class="toctree-l4"><a class="reference internal" href="#download-media-file">download_media_file</a></li>
 </ul>
 </li>
-<li class="toctree-l3"><a class="reference internal" href="numbers.html">Numbers</a><ul>
-<li class="toctree-l4"><a class="reference internal" href="numbers.html#get-number-info">get_number_info</a></li>
-<li class="toctree-l4"><a class="reference internal" href="numbers.html#list-phone-numbers">list_phone_numbers</a></li>
-<li class="toctree-l4"><a class="reference internal" href="numbers.html#order-phone-number">order_phone_number</a></li>
-<li class="toctree-l4"><a class="reference internal" href="numbers.html#get-phone-number">get_phone_number</a></li>
-<li class="toctree-l4"><a class="reference internal" href="numbers.html#update-phone-number">update_phone_number</a></li>
-<li class="toctree-l4"><a class="reference internal" href="numbers.html#delete-phone-number">delete_phone_number</a></li>
-</ul>
-</li>
+<li class="toctree-l3"><a class="reference internal" href="numbers.html">Numbers</a></li>
 </ul>
 </li>
 </ul>
 </li>
 <li class="toctree-l1"><a class="reference internal" href="tests.html">Test Suite</a></li>
-<li class="toctree-l1"><a class="reference internal" href="contribute.html">Contributing and Reporting Bugs</a><ul>
-<li class="toctree-l2"><a class="reference internal" href="contribute.html#submitting-bug-reports">Submitting Bug Reports</a></li>
-<li class="toctree-l2"><a class="reference internal" href="contribute.html#contributing">Contributing</a></li>
-</ul>
-</li>
+<li class="toctree-l1"><a class="reference internal" href="contribute.html">Contributing and Reporting Bugs</a></li>
 </ul>
 
+            
           
-        
+        </div>
       </div>
-      &nbsp;
     </nav>
 
     <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
 
       
-      <nav class="wy-nav-top" role="navigation" aria-label="top navigation">
-        <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
-        <a href="index.html">bandwidth_sdk</a>
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="index.html">bandwidth_sdk</a>
+        
       </nav>
 
 
-      
       <div class="wy-nav-content">
+        
         <div class="rst-content">
-          <div role="navigation" aria-label="breadcrumbs navigation">
-  <ul class="wy-breadcrumbs">
-    <li><a href="index.html">Docs</a> &raquo;</li>
-      
-          <li><a href="account_api.html">Account Api</a> &raquo;</li>
-      
-    <li>Media</li>
-      <li class="wy-breadcrumbs-aside">
         
           
-            <a href="_sources/media.txt" rel="nofollow"> View page source</a>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="index.html">Docs</a> &raquo;</li>
+        
+          <li><a href="account_api.html">Account Api</a> &raquo;</li>
+        
+      <li>Media</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+            
+            <a href="_sources/media.rst.txt" rel="nofollow"> View page source</a>
           
         
       </li>
+    
   </ul>
+
+  
   <hr/>
 </div>
-          <div role="main" class="document">
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
             
   <div class="section" id="media">
 <h1>Media<a class="headerlink" href="#media" title="Permalink to this headline">¶</a></h1>
 <div class="section" id="list-media-files">
 <h2>list_media_files<a class="headerlink" href="#list-media-files" title="Permalink to this headline">¶</a></h2>
 <dl class="method">
-<dt id="bandwidth.account.Client.list_media_files">
-<code class="descclassname">Client.</code><code class="descname">list_media_files</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#bandwidth.account.Client.list_media_files" title="Permalink to this definition">¶</a></dt>
-<dd><p>Gets a list of user&#8217;s media files.</p>
-<table class="docutils field-list" frame="void" rules="none">
-<col class="field-name" />
-<col class="field-body" />
-<tbody valign="top">
-<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body">types.GeneratorType</td>
-</tr>
-<tr class="field-even field"><th class="field-name">Returns:</th><td class="field-body">list of media files</td>
-</tr>
-</tbody>
-</table>
+<dt id="bandwidth_old.account.Client.list_media_files">
+<code class="sig-prename descclassname">Client.</code><code class="sig-name descname">list_media_files</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#bandwidth_old.account.Client.list_media_files" title="Permalink to this definition">¶</a></dt>
+<dd><p>Gets a list of user’s media files.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Return type</dt>
+<dd class="field-odd"><p>types.GeneratorType</p>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p>list of media files</p>
+</dd>
+</dl>
 <p>Example: list media files and save any with the name <cite>dog</cite> in file name:</p>
-<div class="highlight-python"><div class="highlight"><pre><span></span><span class="n">media_list</span> <span class="o">=</span> <span class="n">api</span><span class="o">.</span><span class="n">list_media_files</span><span class="p">()</span>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">media_list</span> <span class="o">=</span> <span class="n">api</span><span class="o">.</span><span class="n">list_media_files</span><span class="p">()</span>
 <span class="k">for</span> <span class="n">media</span> <span class="ow">in</span> <span class="n">media_list</span><span class="p">:</span>
     <span class="k">if</span> <span class="s1">&#39;dog&#39;</span> <span class="ow">in</span> <span class="n">media</span><span class="p">[</span><span class="s1">&#39;media_name&#39;</span><span class="p">]</span><span class="o">.</span><span class="n">lower</span><span class="p">():</span>
         <span class="n">stream</span><span class="p">,</span> <span class="n">content_type</span> <span class="o">=</span> <span class="n">api</span><span class="o">.</span><span class="n">download_media_file</span><span class="p">(</span><span class="n">media</span><span class="p">[</span><span class="s1">&#39;media_name&#39;</span><span class="p">])</span>
-        <span class="k">with</span> <span class="n">io</span><span class="o">.</span><span class="n">open</span><span class="p">(</span><span class="n">media</span><span class="p">[</span><span class="s1">&#39;media_name&#39;</span><span class="p">],</span> <span class="s1">&#39;wb&#39;</span><span class="p">)</span> <span class="k">as</span> <span class="nb">file</span><span class="p">:</span>
-            <span class="nb">file</span><span class="o">.</span><span class="n">write</span><span class="p">(</span><span class="n">stream</span><span class="o">.</span><span class="n">read</span><span class="p">())</span>
+        <span class="k">with</span> <span class="n">io</span><span class="o">.</span><span class="n">open</span><span class="p">(</span><span class="n">media</span><span class="p">[</span><span class="s1">&#39;media_name&#39;</span><span class="p">],</span> <span class="s1">&#39;wb&#39;</span><span class="p">)</span> <span class="k">as</span> <span class="n">file</span><span class="p">:</span>
+            <span class="n">file</span><span class="o">.</span><span class="n">write</span><span class="p">(</span><span class="n">stream</span><span class="o">.</span><span class="n">read</span><span class="p">())</span>
 </pre></div>
 </div>
 </dd></dl>
@@ -313,26 +208,22 @@
 <div class="section" id="upload-media-file">
 <h2>upload_media_file<a class="headerlink" href="#upload-media-file" title="Permalink to this headline">¶</a></h2>
 <dl class="method">
-<dt id="bandwidth.account.Client.upload_media_file">
-<code class="descclassname">Client.</code><code class="descname">upload_media_file</code><span class="sig-paren">(</span><em>media_name</em>, <em>content=None</em>, <em>content_type='application/octet-stream'</em>, <em>file_path=None</em><span class="sig-paren">)</span><a class="headerlink" href="#bandwidth.account.Client.upload_media_file" title="Permalink to this definition">¶</a></dt>
+<dt id="bandwidth_old.account.Client.upload_media_file">
+<code class="sig-prename descclassname">Client.</code><code class="sig-name descname">upload_media_file</code><span class="sig-paren">(</span><em class="sig-param">media_name</em>, <em class="sig-param">content=None</em>, <em class="sig-param">content_type='application/octet-stream'</em>, <em class="sig-param">file_path=None</em><span class="sig-paren">)</span><a class="headerlink" href="#bandwidth_old.account.Client.upload_media_file" title="Permalink to this definition">¶</a></dt>
 <dd><p>Upload a file</p>
-<table class="docutils field-list" frame="void" rules="none">
-<col class="field-name" />
-<col class="field-body" />
-<tbody valign="top">
-<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first last simple">
-<li><strong>media_name</strong> (<em>str</em>) &#8211; name of file on bandwidth server</li>
-<li><strong>content</strong> (<em>str|buffer|bytearray|stream|file</em>) &#8211; content of file to upload (file object, string or buffer).
-Don&#8217;t use together with file_path</li>
-<li><strong>content_type</strong> (<em>str</em>) &#8211; mime type of file</li>
-<li><strong>file_path</strong> (<em>str</em>) &#8211; path to file to upload. Don&#8217;t use together with content</li>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>media_name</strong> (<em>str</em>) – name of file on bandwidth server</p></li>
+<li><p><strong>content</strong> (<em>str|buffer|bytearray|stream|file</em>) – content of file to upload (file object, string or buffer).
+Don’t use together with file_path</p></li>
+<li><p><strong>content_type</strong> (<em>str</em>) – mime type of file</p></li>
+<li><p><strong>file_path</strong> (<em>str</em>) – path to file to upload. Don’t use together with content</p></li>
 </ul>
-</td>
-</tr>
-</tbody>
-</table>
+</dd>
+</dl>
 <p>Example: Upload text file:</p>
-<div class="highlight-python"><div class="highlight"><pre><span></span><span class="n">api</span><span class="o">.</span><span class="n">upload_media_file</span><span class="p">(</span><span class="s1">&#39;file1.txt&#39;</span><span class="p">,</span> <span class="s1">&#39;content of file&#39;</span><span class="p">,</span> <span class="s1">&#39;text/plain&#39;</span><span class="p">)</span>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">api</span><span class="o">.</span><span class="n">upload_media_file</span><span class="p">(</span><span class="s1">&#39;file1.txt&#39;</span><span class="p">,</span> <span class="s1">&#39;content of file&#39;</span><span class="p">,</span> <span class="s1">&#39;text/plain&#39;</span><span class="p">)</span>
 
 <span class="c1"># with file path</span>
 <span class="n">api</span><span class="o">.</span><span class="n">upload_media_file</span><span class="p">(</span><span class="s1">&#39;file1.txt&#39;</span><span class="p">,</span> <span class="n">file_path</span><span class="o">=</span><span class="s1">&#39;/path/to/file1.txt&#39;</span><span class="p">)</span>
@@ -344,26 +235,23 @@ Don&#8217;t use together with file_path</li>
 <div class="section" id="download-media-file">
 <h2>download_media_file<a class="headerlink" href="#download-media-file" title="Permalink to this headline">¶</a></h2>
 <dl class="method">
-<dt id="bandwidth.account.Client.download_media_file">
-<code class="descclassname">Client.</code><code class="descname">download_media_file</code><span class="sig-paren">(</span><em>media_name</em><span class="sig-paren">)</span><a class="headerlink" href="#bandwidth.account.Client.download_media_file" title="Permalink to this definition">¶</a></dt>
+<dt id="bandwidth_old.account.Client.download_media_file">
+<code class="sig-prename descclassname">Client.</code><code class="sig-name descname">download_media_file</code><span class="sig-paren">(</span><em class="sig-param">media_name</em><span class="sig-paren">)</span><a class="headerlink" href="#bandwidth_old.account.Client.download_media_file" title="Permalink to this definition">¶</a></dt>
 <dd><p>Download a file</p>
-<table class="docutils field-list" frame="void" rules="none">
-<col class="field-name" />
-<col class="field-body" />
-<tbody valign="top">
-<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>media_name</strong> (<em>str</em>) &#8211; name of file on bandwidth server</td>
-</tr>
-</tbody>
-</table>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><p><strong>media_name</strong> (<em>str</em>) – name of file on bandwidth server</p>
+</dd>
+</dl>
 <p>:rtype (stream, str)
 :returns stream to file to download and mime type</p>
 <p>Example: list media files and save any with the name <cite>dog</cite> in file name:</p>
-<div class="highlight-python"><div class="highlight"><pre><span></span><span class="n">media_list</span> <span class="o">=</span> <span class="n">api</span><span class="o">.</span><span class="n">get_media_files</span><span class="p">()</span>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">media_list</span> <span class="o">=</span> <span class="n">api</span><span class="o">.</span><span class="n">get_media_files</span><span class="p">()</span>
 <span class="k">for</span> <span class="n">media</span> <span class="ow">in</span> <span class="n">media_list</span><span class="p">:</span>
     <span class="k">if</span> <span class="s1">&#39;dog&#39;</span> <span class="ow">in</span> <span class="n">media</span><span class="p">[</span><span class="s1">&#39;media_name&#39;</span><span class="p">]</span><span class="o">.</span><span class="n">lower</span><span class="p">():</span>
         <span class="n">stream</span><span class="p">,</span> <span class="n">content_type</span> <span class="o">=</span> <span class="n">api</span><span class="o">.</span><span class="n">download_media_file</span><span class="p">(</span><span class="n">media</span><span class="p">[</span><span class="s1">&#39;media_name&#39;</span><span class="p">])</span>
-        <span class="k">with</span> <span class="n">io</span><span class="o">.</span><span class="n">open</span><span class="p">(</span><span class="n">media</span><span class="p">[</span><span class="s1">&#39;media_name&#39;</span><span class="p">],</span> <span class="s1">&#39;wb&#39;</span><span class="p">)</span> <span class="k">as</span> <span class="nb">file</span><span class="p">:</span>
-            <span class="nb">file</span><span class="o">.</span><span class="n">write</span><span class="p">(</span><span class="n">stream</span><span class="o">.</span><span class="n">read</span><span class="p">())</span>
+        <span class="k">with</span> <span class="n">io</span><span class="o">.</span><span class="n">open</span><span class="p">(</span><span class="n">media</span><span class="p">[</span><span class="s1">&#39;media_name&#39;</span><span class="p">],</span> <span class="s1">&#39;wb&#39;</span><span class="p">)</span> <span class="k">as</span> <span class="n">file</span><span class="p">:</span>
+            <span class="n">file</span><span class="o">.</span><span class="n">write</span><span class="p">(</span><span class="n">stream</span><span class="o">.</span><span class="n">read</span><span class="p">())</span>
 </pre></div>
 </div>
 </dd></dl>
@@ -372,15 +260,17 @@ Don&#8217;t use together with file_path</li>
 </div>
 
 
+           </div>
+           
           </div>
           <footer>
   
     <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
       
-        <a href="numbers.html" class="btn btn-neutral float-right" title="Numbers" accesskey="n">Next <span class="fa fa-arrow-circle-right"></span></a>
+        <a href="numbers.html" class="btn btn-neutral float-right" title="Numbers" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
       
       
-        <a href="errors.html" class="btn btn-neutral" title="Errors" accesskey="p"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+        <a href="errors.html" class="btn btn-neutral float-left" title="Errors" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
       
     </div>
   
@@ -389,10 +279,11 @@ Don&#8217;t use together with file_path</li>
 
   <div role="contentinfo">
     <p>
-        &copy; Copyright 2015, Bandwidth App Platform.
+        &copy; Copyright 2015, Bandwidth App Platform
+
     </p>
   </div>
-  Built with <a href="http://sphinx-doc.org/">Sphinx</a> using a <a href="https://github.com/snide/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>.
+  Built with <a href="http://sphinx-doc.org/">Sphinx</a> using a <a href="https://github.com/rtfd/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>. 
 
 </footer>
 
@@ -405,35 +296,15 @@ Don&#8217;t use together with file_path</li>
   
 
 
-  
-
-    <script type="text/javascript">
-        var DOCUMENTATION_OPTIONS = {
-            URL_ROOT:'./',
-            VERSION:'1.0.6-stable',
-            COLLAPSE_INDEX:false,
-            FILE_SUFFIX:'.html',
-            HAS_SOURCE:  true
-        };
-    </script>
-      <script type="text/javascript" src="_static/jquery.js"></script>
-      <script type="text/javascript" src="_static/underscore.js"></script>
-      <script type="text/javascript" src="_static/doctools.js"></script>
-
-  
-
-  
-  
-    <script type="text/javascript" src="_static/js/theme.js"></script>
-  
-
-  
-  
   <script type="text/javascript">
       jQuery(function () {
-          SphinxRtdTheme.StickyNav.enable();
+          SphinxRtdTheme.Navigation.enable(true);
       });
   </script>
+
+  
+  
+    
    
 
 </body>

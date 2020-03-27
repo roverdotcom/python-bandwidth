@@ -4,12 +4,12 @@ from setuptools import setup, find_packages
 
 def get_version():
     version = {}
-    with open('./bandwidth/version.py') as f:
+    with open('./bandwidth_old/version.py') as f:
         exec(f.read(), version)
     return version.get('__version__')
 
 setup(
-    name='bandwidth_sdk',
+    name='bandwidth_sdk_old',
     version=get_version(),
     description='This client library is designed to support the Bandwidth '
                 'API and the official Bandwidth SDK',

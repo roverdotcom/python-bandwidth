@@ -15,18 +15,18 @@ Before using the sdk you must initialize a Client with your Bandwidth App
 Platform API credentials::
 
     # single import
-    import bandwidth
-    voice_api = bandwidth.client('voice', 'u-user', 't-token', 's-secret')
+    import bandwidth_old
+    voice_api = bandwidth_old.client('voice', 'u-user', 't-token', 's-secret')
 
     # OR for IDE goodness with auto completes
-    from bandwidth import voice
+    from bandwidth_old import voice
     voice_api = voice.Client('u-user', 't-token', 's-secret')
 
 
 Create a call::
 
-    import bandwidth
-    voice_api = bandwidth.client('voice', 'u-user', 't-token', 's-secret')
+    import bandwidth_old
+    voice_api = bandwidth_old.client('voice', 'u-user', 't-token', 's-secret')
     call_id = voice_api.create_call(from_ = '+1234567890', to = '+1234567891', callback_url = "http://yoursite.com/calls")
     print(call_id)
     ## c-abc123
@@ -49,8 +49,8 @@ Create a call::
 
 Retrieving list of calls::
 
-    import bandwidth
-    voice_api = bandwidth.client('voice', 'u-user', 't-token', 's-secret')
+    import bandwidth_old
+    voice_api = bandwidth_old.client('voice', 'u-user', 't-token', 's-secret')
     call_list = voice_api.list_calls(to = '+19192223333', size = 2)
     print(list(call_list))
     ## [

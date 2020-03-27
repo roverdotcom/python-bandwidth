@@ -22,13 +22,13 @@ html_docs:
 	cp -fR sphinx_docs/build/html/ docs/
 
 pep:
-	find ./bandwidth -name \*.py -exec pep8 --ignore=E402 --max-line-length 120 {} +
+	find ./bandwidth_old -name \*.py -exec pep8 --ignore=E402 --max-line-length 120 {} +
 	find ./tests -name \*.py -exec pep8 --ignore=E402 --max-line-length 120 {} +
 
 auto_pep_tests:
 	find ./tests -name \*.py -exec autopep8 --recursive --aggressive --aggressive --in-place --max-line-length 120 {} +
 
 auto_pep_source:
-	find ./bandwidth -name \*.py -exec autopep8 --recursive --aggressive --aggressive --in-place --max-line-length 120 {} +
+	find ./bandwidth_old -name \*.py -exec autopep8 --recursive --aggressive --aggressive --in-place --max-line-length 120 {} +
 
 auto_pep: pep auto_pep_source auto_pep_tests
